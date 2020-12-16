@@ -1,0 +1,141 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color:rgb(230,222,215);
+}
+.container{
+    background-color:rgb(226,58,53);
+    width:35vw;
+    height:42.7vw;
+    padding:1.5vw;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:30px;
+    font-family:helvetica;
+}
+#imgd{
+    float:right;
+    position:relative;
+    width:30vw;
+    margin-top:5vw;
+}
+#imge{
+    position:absolute;
+    width:30vw;
+    margin-top:3vw;
+}
+p{
+    text-align:center;
+    line-height:0.5vw;
+    font-size:1.5vw;
+}
+h1{
+    font-size:3vw;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.h2resultado{
+    text-align:center;
+    font-size:1.8vw;
+}
+input{
+    margin:auto;
+    display:block;
+    width:30vw;
+    padding:1vw;
+    font-size:1.5vw;
+    text-align:center;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+    border-radius:10px;
+    box-sizing:border-box;
+    margin-bottom:1vw;
+}
+button{
+    background-color:rgb(150,58,53);
+    color:white;
+    display:block;
+    margin:auto;
+    font-size: 1.5vw;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+    border:rgb(200,58,53);
+    border-radius:20px;
+    width:10vw;
+    height:3.5vw;
+}
+button:hover{
+    background-color:rgb(226,58,53);
+    color:white;
+}
+
+
+
+
+@media (max-width: 700px) {
+
+    .container{
+        background-colorrgb(226,58,53);
+        width:97vw;
+        height:61.5vh;
+        padding:1.5vw;        
+        border-radius:30px 30px 0px 0px;
+    }
+    #imgd{
+        display: none;        
+    }
+    #imge{
+        position:relative;
+        width:50vw;
+        margin-left:25vw;
+        margin-top:0px;
+    }
+    p{
+        background-color:rgb(226,58,53);
+        width:100vw;
+        margin-top:0;
+        margin-bottom:0;
+        margin-right:auto;
+        font-size:6vw;
+        line-height:10vw;
+    }
+    h1{
+        font-size:9vw;
+        text-align: center;
+        margin:3vw;
+        letter-spacing:3px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+    }
+    .h2resultado{
+        font-size:7vw;
+        background-color:rgb(226,58,53);
+        width:100vw;
+        margin-bottom:auto;
+        margin-left:;
+        margin-top:3vw;
+            
+    }
+    input{
+        margin:auto;
+        display:block;
+        width:97vw;
+        padding:5vw;
+        font-size:5vw;
+        text-align:center;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+        border-radius:10px;
+        box-sizing:border-box;
+        margin-bottom:2vw;
+    }
+    button{
+        background-color:rgb(150,58,53);
+        color:white;
+        display:block;
+        margin:auto;
+        font-size:6vw;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+        border:rgb(200,58,53);
+        border-radius:20px;
+        width:40vw;
+        height:15vw;
+    }
+}
