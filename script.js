@@ -82,7 +82,7 @@ function formSugestao(){
 //Mensagem de agradecimento do envio da sugestão
 let msgobrigado = document.getElementById("msgobrigado");
 function msgObrigado(){
-    msgobrigado.innerHTML = `<h4>Obrigado pela sugestão!</h4>`;
+    msgobrigado.innerHTML = `<h4>Obrigado pela sugestão!</h4>`
 }
 
 
