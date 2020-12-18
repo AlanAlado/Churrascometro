@@ -76,13 +76,7 @@ function apagaLampada(){
 
 //Página do formulário
 function formSugestao(){
-    window.location.href = "form.html";
-}
-
-//Mensagem de agradecimento do envio da sugestão
-let msgobrigado = document.getElementById("msgobrigado");
-function msgObrigado(){
-    msgobrigado.innerHTML = `<h4>Obrigado pela sugestão!</h4>`
+    window.location.href = "https://forms.gle/HrECe6pV6hR4RP6MA";
 }
 
 
