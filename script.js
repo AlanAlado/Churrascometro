@@ -27,13 +27,13 @@ function calcular() {
 
     resultado.innerHTML = `<h2 class="h2resultado" >Você vai precisar comprar:`
 
-    resultado.innerHTML += `<p>${qtdTotalCarne / 1000} Kg de Carne</p>` 
+    resultado.innerHTML += `<p class="resultadop">${qtdTotalCarne / 1000} Kg de Carne</p>` 
 
-    resultado.innerHTML += `<p>${Math.ceil(qtdTotalCerveja / 355)} Latas de Cerveja</p>`
+    resultado.innerHTML += `<p class="resultadop">${Math.ceil(qtdTotalCerveja / 355)} Latas de Cerveja</p>`
 
-    resultado.innerHTML += `<p>${Math.ceil(qtdTotalAgua / 2000)} Litros de Água</p>`    
+    resultado.innerHTML += `<p class="resultadop">${Math.ceil(qtdTotalAgua / 2000)} Litros de Água</p>`    
 
-    resultado.innerHTML += `<p>${Math.ceil(qtdTotalRefri / 2000)} Litros de Refrigerante</p>`
+    resultado.innerHTML += `<p class="resultadop">${Math.ceil(qtdTotalRefri / 2000)} Litros de Refrigerante</p>`
 }
 
 function carnePP(duracao) {
@@ -64,3 +64,25 @@ function refriPP(duracao){
         return 300;
     }
 }
+
+
+//Botão de sugestão
+function acendeLampada(){
+    document.getElementById("ideia").src = "./lampada-acesa.png";
+}
+function apagaLampada(){
+    document.getElementById("ideia").src = "./lampada-apagada.png";
+}
+
+//Página do formulário
+function formSugestao(){
+    window.location.href = "form.html";
+}
+
+//Mensagem de agradecimento do envio da sugestão
+let msgobrigado = document.getElementById("msgobrigado");
+funciton msgObrigado(){
+    msgobrigado.innerHTML = `<h4>Obrigado pela sugestão!</h4>`;
+}
+
+
