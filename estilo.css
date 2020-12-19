@@ -81,6 +81,7 @@ h1{
     height:6vw;
     box-shadow:5px 5px 5px rgba(0, 0, 0, 0.7);
     border-radius:10vw;
+    cursor:pointer;
 }
 
 
