@@ -76,7 +76,8 @@ function apagaLampada(){
 
 //Página do formulário
 function formSugestao(){
-    window.location.href = "https://forms.gle/HrECe6pV6hR4RP6MA";
+    window.open("https://forms.gle/HrECe6pV6hR4RP6MA", "_blank");
+    //window.location.href = "https://forms.gle/HrECe6pV6hR4RP6MA";
 }
 
 
