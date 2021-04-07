@@ -7,7 +7,7 @@ body{
 .container{
     background-color:rgb(226,58,53);
     width:35vw;
-    height:42.8vw;
+    height:42.7vw;
     padding:1.5vw;
     margin-left:auto;
     margin-right:auto;
@@ -46,28 +46,28 @@ body{
     list-style:none;
     text-align:center;
     font-size:1.5vw;
-    line-height:1.5vw;
+    line-height:1.6vw;
     transform:translateX(-10.3%);
 }
 .li2{
     list-style:none;
     text-align:center;
     font-size:1.5vw;
-    line-height:1.5vw;
+    line-height:1.6vw;
     transform:translateX(-4%);
 }
 .li3{
     list-style:none;
     text-align:center;
     font-size:1.5vw;
-    line-height:1.3vw;
+    line-height:1.4vw;
     transform:translateX(-8%);
 }
 .li4{
     list-style:none;
     text-align:center;
     font-size:1.5vw;
-    line-height:1.5vw;
+    line-height:1.6vw;
     transform:translateX(-0.7%);
 }
 .li1::before{
