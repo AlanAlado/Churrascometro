@@ -1,12 +1,13 @@
 body{
     margin:0px;
     padding:0px;
+    box-sizing:border-box;
     background-color:rgb(230,222,215);
 }
 .container{
     background-color:rgb(226,58,53);
     width:35vw;
-    height:42.7vw;
+    height:43vw;
     padding:1.5vw;
     margin-left:auto;
     margin-right:auto;
