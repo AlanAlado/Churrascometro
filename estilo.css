@@ -46,20 +46,20 @@ body{
     list-style:none;
     text-align:center;
     font-size:1.5vw;
-    line-height:1.7vw;
+    line-height:1.5vw;
     transform:translateX(-10.3%);
 }
 .li2{
     list-style:none;
     text-align:center;
-    font-size:1.5vw;
+    font-size:1.3vw;
     line-height:1.7vw;
     transform:translateX(-4%);
 }
 .li3{
     list-style:none;
     text-align:center;
-    font-size:1.5vw;
+    font-size:1.3vw;
     line-height:1.7vw;
     transform:translateX(-8%);
 }
@@ -67,7 +67,7 @@ body{
     list-style:none;
     text-align:center;
     font-size:1.5vw;
-    line-height:1.7vw;
+    line-height:1.5vw;
     transform:translateX(-0.7%);
 }
 .li1::before{
