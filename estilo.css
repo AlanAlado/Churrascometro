@@ -1,0 +1,344 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color:rgb(230,222,215);
+}
+.container{
+    background-color:rgb(226,58,53);
+    width:35vw;
+    height:42.7vw;
+    padding:1.5vw;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:30px;
+    font-family:helvetica, sans-serif;
+}
+
+/* Imagem da Direita */
+#imgd{
+    float:right;
+    position:relative;
+    width:30vw;
+    margin-top:5vw;
+}
+
+/* Imagem da Esquerda */
+#imge{
+    position:absolute;
+    width:30vw;
+    margin-top:3vw;
+}
+
+/* Churrascômetro */
+#churras{
+    width:35vw;
+}
+
+/* Resultado do Cálculo */
+.h2resultado{
+    text-align:center;
+    font-size:1.8vw;
+    margin-bottom:0; 
+    padding-bottom:0px; 
+}
+.li1{
+    list-style:none;
+    text-align:center;
+    font-size:1.5vw;
+    line-height:1.7vw;
+    transform:translateX(-10.3%);
+}
+.li2{
+    list-style:none;
+    text-align:center;
+    font-size:1.5vw;
+    line-height:1.7vw;
+    transform:translateX(-4%);
+}
+.li3{
+    list-style:none;
+    text-align:center;
+    font-size:1.5vw;
+    line-height:1.7vw;
+    transform:translateX(-8%);
+}
+.li4{
+    list-style:none;
+    text-align:center;
+    font-size:1.5vw;
+    line-height:1.7vw;
+    transform:translateX(-0.7%);
+}
+.li1::before{
+    content:"";
+    display:inline-block;
+    width:2.5vw;
+    height:1.5vw;
+    padding:2.2px;
+    background-image:url(./_imagens/icon-steak.png);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+.li2::before{
+    content:"";
+    display:inline-block;
+    width:2.5vw;
+    height:2.2vw;
+    padding:2px;
+    background-image:url(./_imagens/icon-cerveja.png);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+.li3::before{
+    content:"";
+    display:inline-block;
+    width:2.5vw;
+    height:2.2vw;
+    padding:2px;
+    background-image:url(./_imagens/icon-water.png);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+.li4::before{
+    content:"";
+    display:inline-block;
+    width:2.5vw;
+    height:2.2vw;
+    padding:2px;
+    background-image:url(./_imagens/icon-cola.png);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+
+/* Inputs de Informações Para Calcular */
+#adultos, #criancas, #naobebe, #duracao{
+    margin:auto;
+    display:block;
+    width:30vw;
+    padding:1vw;
+    font-size:1.5vw;
+    text-align:center;
+    box-shadow:2px 2px 2px rgba(0, 0, 0, 0.7);
+    border-radius:10px;
+    box-sizing:border-box;
+    margin-bottom:1vw;
+}
+input:hover{
+    background-color:rgb(236, 235, 235);
+}
+
+/* Botão de Calcular */
+#calcular{
+    background-color:rgb(150,58,53);
+    color:white;
+    display:block;
+    margin:auto;
+    font-size:1.5vw;
+    box-shadow:5px 5px 10px rgba(0, 0, 0, 0.7);
+    border:rgb(200,58,53);
+    border-radius:20px;
+    width:10vw;
+    height:3.5vw;
+    transition: background-color 1s;
+}
+#calcular:hover{
+    background-color:rgb(226,58,53);
+    color:white;
+    cursor:pointer;
+}
+
+/* Botão para o formulário de sugestão */
+#sugestao{
+    background-color:rgb(42, 122, 214);
+    color:white;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:clip;
+    width:9.8vw;
+    padding:3px;
+    font-family:Helvetica, Arial, sans-serif;
+    font-size:1.2vw;
+    letter-spacing:2px;
+    position:absolute;
+    left:-4.1vw;
+    top:30vw;
+    border-radius:4px;
+    transform:rotate(270deg);
+    cursor:pointer;
+    transition-property:padding, font-size, left, width;
+    transition-duration:1s;
+}
+#sugestao:hover{
+    padding:5px;
+    width:22.5vw;
+    font-size:1.4vw;
+    left:-10.5vw;
+}
+.lamp{
+    width:1.5vw;
+}
+
+
+
+@media (max-width: 700px) {
+
+    .container{
+        background-color:rgb(226,58,53);
+        width:97vw;
+        height:90vh;
+        padding:1.5vw;        
+        border-radius:30px 30px 0px 0px;
+        display:block;
+    }
+    #imgd{
+        display: none;        
+    }
+    #imge{
+        position:relative;
+        width:50vw;
+        margin-left:25vw;
+        margin-top:0px;
+    }
+    
+    /* Churrascômetro */
+    #churras{
+        width:97vw;    
+    }
+
+    .h2resultado{
+        font-size:7vw;
+        background-color:rgb(226,58,53);
+        width:100vw;
+        margin-bottom:auto;
+        margin-left:-1.5vw;
+        margin-top:3vw;   
+    }
+    .li1{
+        list-style:none;
+        text-align:center;
+        font-size:6vw;
+        line-height:13vw;
+        transform:translateX(-14.5%);
+    }
+    .li2{
+        list-style:none;
+        text-align:center;
+        font-size:6vw;
+        line-height:10vw;
+        transform:translateX(-4.5%);
+    }
+    .li3{
+        list-style:none;
+        text-align:center;
+        font-size:6vw;
+        line-height:10vw;
+        transform:translateX(-9.5%);
+    }
+    .li4{
+        list-style:none;
+        text-align:center;
+        font-size:6vw;
+        line-height:10vw;
+        transform:translateX(1%);
+    }
+    .li1::before{
+        content:"";
+        display:inline-block;
+        width:10vw;
+        height:7vw;
+        padding:2px;
+        background-image:url(./_imagens/icon-steak.png);
+        background-repeat:no-repeat;
+        background-position:center;
+        background-size:cover;
+    }
+    .li2::before{
+        content:"";
+        display:inline-block;
+        width:9vw;
+        height:7vw;
+        background-image:url(./_imagens/icon-cerveja.png);
+        background-repeat:no-repeat;
+        background-position:center;
+        background-size:cover;
+    }
+    .li3::before{
+        content:"";
+        display:inline-block;
+        width:8vw;
+        height:9vw;
+        background-image:url(./_imagens/icon-water.png);
+        background-repeat:no-repeat;
+        background-position:center;
+        background-size:cover;
+    }
+    .li4::before{
+        content:"";
+        display:inline-block;
+        width:10vw;
+        height:9vw;
+        background-image:url(./_imagens/icon-cola.png);
+        background-repeat:no-repeat;
+        background-position:center;
+        background-size:cover;
+    }
+    #adultos, #criancas, #naobebe, #duracao{
+        margin:auto;
+        display:block;
+        width:97vw;
+        padding:5vw;
+        font-size:5vw;
+        text-align:center;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+        border-radius:10px;
+        box-sizing:border-box;
+        margin-bottom:2vw;
+    }
+    #calcular{
+        background-color:rgb(150,58,53);
+        color:white;
+        display:block;
+        margin:auto;
+        font-size:6vw;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+        border:rgb(200,58,53);
+        border-radius:20px;
+        width:40vw;
+        height:15vw;
+    }
+
+    /* Botão para o formulário de sugestão*/
+    #sugestao{
+        background-color:rgb(42, 122, 214);
+        color:white;
+        white-space:nowrap;
+        overflow:hidden;
+        text-overflow:clip;
+        width:29vw;
+        padding:3px;
+        font-family:Helvetica, Arial, sans-serif;
+        font-size:3.5vw;
+        letter-spacing:2px;
+        position:absolute;
+        left:-11vw;
+        top:28vw;
+        border-radius:4px;
+        transform:rotate(270deg);
+        cursor:pointer;
+        transition-property:padding, font-size, left, width;
+        transition-duration:1s;
+    }
+    #sugestao:hover{
+        padding:5px;
+        width:58vw;
+        font-size:3.5vw;
+        left:-25vw;
+    }
+    .lamp{
+        width:25px;
+    }
+}
